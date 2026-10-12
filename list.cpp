@@ -93,7 +93,7 @@ void printInfo(List L) {
     address P;
     P = first(L);
     while (P != nullptr) {
-        cout << info(P) << " ";
+        cout << info(P) << ", ";
         P = next(P);
     }
     cout << endl;
